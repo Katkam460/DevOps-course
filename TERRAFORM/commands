@@ -1,1 +1,39 @@
-statefile
+Core Terraform Commands
+terraform init
+Initializes a new or existing Terraform configuration.
+Downloads and installs provider plugins.
+Sets up the backend configuration for state management.
+
+terraform plan
+Creates an execution plan by comparing the current state with the desired configuration.
+Allows you to preview changes before applying them.
+
+terraform apply
+Applies the execution plan to create, update, or delete infrastructure resources as specified.
+terraform destroy
+
+Deletes all resources defined in the configuration.
+Often used for cleanups in test environments.
+
+terraform refresh	
+Updates the Terraform state file with the real-world infrastructure state without making changes.
+terraform validate
+
+Validates the syntax and configuration of the Terraform files.
+terraform fmt
+Formats Terraform configuration files to a canonical style.
+
+
+State Management Commands
+terraform state list
+Lists all resources tracked in the Terraform state.
+
+terraform state show <resource>
+Displays detailed information about a specific resource in the state.
+
+terraform state rm <resource>
+Removes a resource from the Terraform state without deleting the actual infrastructure.
+
+terraform state mv <source> <destination>
+Moves a resource from one state location to another.
+
