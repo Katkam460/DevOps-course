@@ -1,0 +1,54 @@
+Basic Level:
+What is Terraform, and why is it used?
+What are the key features of Terraform?
+Explain the difference between declarative and imperative approaches. Which one does Terraform follow?
+What is the role of a Terraform provider? Can you name some commonly used providers?
+What are Terraform modules, and why are they important?
+How do you initialize a Terraform configuration?
+What are the core Terraform commands? Describe their purpose.
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+What is the use of the Terraform state file?
+Explain the difference between terraform refresh and terraform plan.
+What is the purpose of a terraform.tfvars file?
+
+
+Intermediate Level:
+How does Terraform manage dependencies between resources?
+What is the difference between count and for_each in Terraform?
+What are data sources in Terraform, and when would you use them?
+How can you import an existing infrastructure into Terraform?
+What is a backend in Terraform? Name some backend types.
+Explain the difference between local and remote backends in Terraform.
+How do you handle sensitive data such as passwords or secrets in Terraform?
+What are workspaces in Terraform? How do they differ from environments?
+Can you explain the lifecycle rules in Terraform? How are they used?
+What are Terraform outputs, and how are they helpful?
+
+
+Advanced Level:
+How do you ensure infrastructure created using Terraform is reusable?
+What is the difference between terraform validate and terraform fmt?
+How do you manage multiple environments (e.g., development, staging, production) in Terraform?
+What are the best practices for structuring Terraform projects?
+How would you resolve a situation where Terraform state becomes corrupted or inconsistent?
+What is the purpose of terraform taint and terraform untaint?
+How do you lock a Terraform state file? Why is this necessary?
+Explain how to use conditional expressions in Terraform.
+How would you perform rolling updates with Terraform?
+What is the significance of resource graph in Terraform, and how does Terraform generate it?
+
+
+Scenario-Based Questions:
+You want to deploy an application across multiple regions. How would you achieve this using Terraform?
+If you encounter a dependency cycle error in your configuration, how would you troubleshoot it?
+How would you manage Terraform in a team where multiple developers are working on the same infrastructure?
+How would you migrate Terraform state from a local backend to a remote backend like S3?
+How do you debug a Terraform script that is failing during the apply step?
+
+If you delete s3 bucket in console what will happen in terraform 
+
+
+
