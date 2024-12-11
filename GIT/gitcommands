@@ -1,0 +1,37 @@
+* For pushing any code to git hub follow these steps 
+git add .
+git commit -m "commit message"
+git push -- for pushing to remote repo 
+
+git log -- for fetching the commits
+git reflog -- this is also for fetching the commits 
+git log -1
+git log --oneline -- in onlie view
+
+git show "commit id " --- > find the commit details
+
+git branch ---> branch creation 
+git checkout "<branch name>" ---> go inside into the branch 
+git checkout -b "<branch name>" ---> craete the branch and go inside 
+
+git pull --rebase ---> for pulling the latest changes
+git pull
+
+git merge ---> for merging the both branches 
+
+git cherry-pick "commit id "  ---> for doing the same chenges in other branches 
+
+git branch -r ---> list all the remote branches 
+
+git push origin --delete "<branch name>"  ---> Delete a Remote Branch
+
+git branch --track <branch name>  origin/feature-x  ----> track the remote branch
+
+git branch -d <branch name> ---> local branch deletion 
+
+git branch -D <branch name> -- > forcefully delete 
+
+  
+
+
+
