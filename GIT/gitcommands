@@ -31,7 +31,9 @@ git branch -d <branch name> ---> local branch deletion
 
 git branch -D <branch name> -- > forcefully delete 
 
-  
+git push origin main:new-feature ----> replica of the main branch in remote
+
+git push -u origin <branch-name>  ----> set upstream branch    
 
 
 
