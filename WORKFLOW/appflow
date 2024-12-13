@@ -1,0 +1,17 @@
+
+
+
+
+Clone the repository from git hub 
+
+if it is Java code build with maven tool go inside pom.xml file and run "mvn clean install"command 
+
+One target file will generate it will iclude the built artifact 
+
+Run the artifact by using this below command 
+
+java -jar target/your-app-name-1.0.jar
+
+Deploy the artifact JAR File or WAR file 
+
+
