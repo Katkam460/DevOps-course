@@ -35,5 +35,15 @@ git push origin main:new-feature ----> replica of the main branch in remote
 
 git push -u origin <branch-name>  ----> set upstream branch    
 
+*git config
+
+
+
+*git tags 
+
+
+*git statsh 
+
+
 
 
